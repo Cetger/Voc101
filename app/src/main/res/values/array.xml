@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="spinnerItems">
+        <item>German</item>
+        <item>Turkish</item>
+        <item>Italy</item>
+        <item>Russian</item>
+    </string-array>
+</resources>

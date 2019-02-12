@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bag"
+    tools:context=".Login">
+
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lg"
+            android:layout_margin="20dp"
+            />
+
+    <TextView
+        android:id="@+id/denemeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deneme"
+        android:textColor="@color/CW"
+        />
+
+
+        <TextView
+            android:id="@+id/Voc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VOC101"
+            android:textColor="@color/ff"
+            android:textSize="30dp"
+            android:textStyle="italic|bold"
+            />
+
+
+
+
+
+
+
+
+        <EditText
+            android:id="@+id/ID"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Username"
+            android:textColorHint="@color/GRI"
+            android:textColor="@color/GRI"
+            />
+
+
+        <EditText
+            android:id="@+id/Pass"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:text="Password"
+            android:textColor="@color/GRI"
+ />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            >
+
+
+            <CheckBox
+                android:id="@+id/remember"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remember"
+                android:textColor="@color/CW"
+                android:layout_marginRight="65dp"
+                />
+
+            <TextView
+                android:id="@+id/Forget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forget Password"
+                android:textColor="@color/ff"
+                android:textStyle="italic"
+                android:clickable="true"
+ />
+        </LinearLayout>
+
+
+
+
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/shape"
+        android:text="logın"
+        android:textColor="@color/CW"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/doyou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dont you have Account? Sign UP"
+        android:textColor="@color/CW"
+        android:clickable="true"
+        />
+
+
+
+
+
+
+
+</LinearLayout>

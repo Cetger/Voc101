@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/HLKoyu"
+    tools:context=".Add">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_margin="10dp"
+            android:background="@color/ff"
+
+            />
+
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="125dp"
+                    android:text="Top 1000"
+                    android:textSize="20sp"
+                    android:layout_margin="15dp"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="125dp"
+                    android:text="Top 3000"
+                    android:layout_margin="15dp"
+
+                    android:textSize="20sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="125dp"
+                    android:text="Top 5000"
+                    android:layout_margin="15dp"
+
+                    android:textSize="20sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="125dp"
+                    android:text="Deneme"
+
+                    android:layout_margin="15dp"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_margin="10dp"
+            android:background="@color/ff" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="125dp"
+                    android:text="Meyveler"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="125dp"
+                    android:text="Sebzeler"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="125dp"
+                    android:text="Meslekler"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="125dp"
+                    android:text="Tarif"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_margin="10dp"
+            android:background="@color/ff" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="125dp"
+                    android:text="Sıfatlar"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="125dp"
+                    android:text="Fiiler"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="125dp"
+                    android:text="Edatlar"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="125dp"
+                    android:text="Bağlaçlar"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_margin="10dp"
+            android:background="@color/ff" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="125dp"
+                    android:text="Sıfatlar"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="125dp"
+                    android:text="Fiiler"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="125dp"
+                    android:text="Edatlar"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="125dp"
+                    android:text="Bağlaçlar"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_margin="10dp"
+            android:background="@color/ff" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:layout_marginBottom="60dp"
+            android:background="@color/ff" />
+
+    </LinearLayout>
+
+</ScrollView>

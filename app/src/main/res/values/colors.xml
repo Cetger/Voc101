@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="BG">#202e46</color>
+    <color name="CW">#cecece</color>
+    <color name="ff">#dfdfdf</color>
+
+    <color name="GRI">#b1b8bf</color>
+    <color name="TRA">#66acacac</color>
+
+    <color name="HL">#3a4879</color>
+    <color name="HLKoyu">#215466</color>
+
+</resources>
